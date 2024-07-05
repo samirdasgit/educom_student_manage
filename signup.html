@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <style>
+    @font-face {
+      font-family: protonerd;
+      src: url(./0xProto/0xProtoNerdFont-Regular.ttf);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: protonerd;
+      background-image: url('https://cdn.wallpapersafari.com/48/65/oynO57.jpg');
+      background-size:cover;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 80px;
+      border-radius: 5%;
+      /* opacity: 0.3; */
+    }
+    form>div>label{
+      font-weight: 900;
+      /* color: #D8D9CF; */
+    }
+    form>div>input, textarea{
+      outline: none;
+      border: none;
+      border-bottom: 2px solid white;
+      background-color: transparent;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div>
+      <form action="post">
+
+        <div>
+          <label for="first_name">Enter your First name</label>
+          <input type="text" name="first_name" id="first_name" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="last_name">Ente your Last name</label>
+          <input type="text" name="last_name" id="last_name" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="father_name">Enter your Father's name</label>
+          <input type="text" name="father_name" id="father_name" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="mother_name">Enter your Mother's name</label>
+          <input type="text" name="mother_name" id="mother_name" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="dob">Date of birth</label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="mobile_no">Enter your Mobile No</label>
+          <input type="number" name="mobile_no" id="mobile_no" />
+        </div>
+        <br><br>
+        <div>
+          <label for="email">Enter your Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <br /><br />
+        <div>
+          <label for="aadhar">Enter your Aadhar no</label>
+          <input type="number" name="aadhar" id="aadhar" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="bank_no">Enter your Bank no</label>
+          <input type="number" name="bank_no" id="bank_no" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="bank_ifsc">Enter your Bank ifsc no</label>
+          <input type="number" name="bank_ifsc" id="bank_ifsc" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="address">Enter your address</label>
+          <textarea name="address" id="address"></textarea>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
+</html>
